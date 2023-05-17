@@ -3,5 +3,5 @@ Windows 10 loves to change your default audio device when updating graphics driv
 
 # Usage
 Once you compiled it using Visual Studio and .NET 7, you just have to run it and it'll keep running in the background.
-It automatically sets itself to be started when Windows boots.
+After grabbing your current default devices and saving it to a settings file in the same directory, it automatically sets itself to be started when Windows boots.
 Once your device gets changed, it'll beep twice and change it back to what it's meant to be.
